@@ -4,7 +4,7 @@ class Screen
   attr_accessor :width
   attr_accessor :height
   attr_accessor :matrix
-
+  
   def initialize(width, height)
     @width = width
     @height = height
@@ -21,6 +21,7 @@ class Screen
 
   def at(x, y)
     if inbounds(x, y)
+      #return the pixel at x and y values.
       return @matrix[x][y]
     end
   end
@@ -29,13 +30,18 @@ class Screen
 
   def inbounds(x, y)
     valid = true;
+
     if x < 0 || x > @width-1
       puts "x value is out of bounds"
       valid = false
-    elsif y < 0 || y > @height-1
+    end
+
+    if y < 0 || y > @height-1
       puts "y value is out of bounds"
       valid = false
     end
+    
+    return valid
   end
 
 end
