@@ -78,7 +78,7 @@ class SeparateChaining
   end
 
   def status
-    @linked_list.each do |item|
+    @items.each do |item|
       if item
         current = item.head
         while current
@@ -102,7 +102,7 @@ star_wars_movies["Star Wars: A New Hope"] = "Number Four"
 star_wars_movies["Star Wars: The Empire Strikes Back"] = "Number Five"
 star_wars_movies["Star Wars: Return of the Jedi"] = "Number Six"
 
-puts star_wars_movies.status
+p star_wars_movies.status
 
 
 
