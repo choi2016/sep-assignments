@@ -1,0 +1,23 @@
+1. taking medication in the morning
+
+-prepare medication
+-prepare water
+-find out current time
+-find last time I took medication
+-if I haven't taken medication in over 8 hours, consume medication with prepared water.
+ else, wait until it's at least 8 hours
+
+2. Paying for bus fare
+
+-check to see if I have exact change ($3) in my wallet
+-step onto the front of the bus
+-insert money into fare machine
+-receive proof of purchase
+
+3. Making tea
+
+-check to see if water and tea are available
+-if both are available, put water into water boiler
+-while the water's heating up, prepare mug and tea
+-once water boiler is done, pour water into cup with tea
+-steep 3 minutes
