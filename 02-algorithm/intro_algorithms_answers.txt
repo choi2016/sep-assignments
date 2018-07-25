@@ -1,23 +1,32 @@
-1. taking medication in the morning
+Calculating tip at restaurant:
 
--prepare medication
--prepare water
--find out current time
--find last time I took medication
--if I haven't taken medication in over 8 hours, consume medication with prepared water.
- else, wait until it's at least 8 hours
+Input bill and numPeople
+If numPeople >= 6
+	Tip = Bill * 0.20
+else 
+	Tip = Bill * 0.15
+end
 
-2. Paying for bus fare
+Deciding number of layers to wear:
 
--check to see if I have exact change ($3) in my wallet
--step onto the front of the bus
--insert money into fare machine
--receive proof of purchase
+Input tempOfTheDay in Fahrenheit
+Let numLayers = 0
+if tempOfTheDay >= 70
+	numLayers = 1
+elsif tempOfTheDay < 70 and tempOfTheDay > 40
+	numLayers = 2
+elsif tempOfTheDay < 39
+	numLayers = 4
+else
+	numLayers
+end
 
-3. Making tea
+Deciding whether to ride bus or ride share:
 
--check to see if water and tea are available
--if both are available, put water into water boiler
--while the water's heating up, prepare mug and tea
--once water boiler is done, pour water into cup with tea
--steep 3 minutes
+Input distance in miles
+if distance > 2
+	call rideShare
+else
+	call bus
+end
+
