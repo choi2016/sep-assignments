@@ -1,0 +1,16 @@
+Quick
+  0.000000   0.000000   0.000000 (  0.000051)
+Heap
+  0.000000   0.000000   0.000000 (  0.000048)
+Bucket
+  0.000000   0.000000   0.000000 (  0.000040)
+Insertion
+  0.000000   0.000000   0.000000 (  0.000074)
+Selection
+  0.000000   0.000000   0.000000 (  0.000091)
+Bubble
+  0.000000   0.000000   0.000000 (  0.000009)
+Merge
+  0.000000   0.000000   0.000000 (  0.000138)
+
+Looking at the chart, we can see that merge sort took the longest. Some algorithm works better with a smaller collection. For example and vice versa. If we were to use the bubble sort on a large collection, the sort would take much longer as there would be more loops. 
