@@ -1,0 +1,11 @@
+1. O(1) because the algorithm will always be constant time.
+
+2. O(n) because the algorithm will run as many times as the collection's length.
+
+3. O(n) because the number of iterations will grow at the same rate as the collection and sub-collections.
+
+4. O(2^n) because as n gets larger, the number of operations grows exponentially since it's a recursive function.
+
+5. I believe it's O(n) because as n gets bigger, 'i < n-1' will grow at the same rate.
+
+6. I believe it's O(n log n) because it is called recursively until the left and right collections are both broken down into size of 1 or is sorted.
