@@ -45,12 +45,12 @@
 
 10. What is the Big-O of binary search?
 
-	It would be the last iteration of the binary search.
+	O(n).
 
 11. What is the Big-Ω of binary search?
 
-	It would be the best case where the target element is in the middle.
+	O(1).
 
 23. What is the Big-Ө of binary search?
 
-	It would be any iteration besides first and last iteration.
+	O(log n).
