@@ -2,7 +2,7 @@
 
 2. O(n) because the algorithm will run as many times as the collection's length.
 
-3. O(n) because the number of iterations will grow at the same rate as the collection and sub-collections.
+3. O(n^2) because there are two loops.
 
 4. O(2^n) because as n gets larger, the number of operations grows exponentially since it's a recursive function.
 
