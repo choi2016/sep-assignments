@@ -51,7 +51,7 @@
 
 	O(1).
 
-23. What is the Big-Ө of binary search?
+12. What is the Big-Ө of binary search?
 
 	The bounded case must be faster than O(logn) and slower than Ω(1). We can represent the bounded case with the function 
 	f(n) = (1/2) * (log n).  Since constants don't matter, 
