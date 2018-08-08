@@ -1,24 +1,26 @@
 Benchmark:
 	1000
-	poorly written ruby:  0.010000   0.000000   0.010000 (  0.014863)
-	code optimization:  0.000000   0.000000   0.000000 (  0.000218)
-	time complexity:  0.000000   0.000000   0.000000 (  0.000300)
-	space complexity:  0.000000   0.000000   0.000000 (  0.000324)
+       user     system      total        real
+poorly written ruby:  0.010000   0.000000   0.010000 (  0.013586)
+code optimization:  0.010000   0.000000   0.010000 (  0.009097)
+time complexity:  0.010000   0.000000   0.010000 (  0.009970)
+space complexity:  0.080000   0.000000   0.080000 (  0.075489)
 
 	5000
-	poorly written ruby:  0.340000   0.000000   0.340000 (  0.340998)
-	code optimization:  0.000000   0.000000   0.000000 (  0.000994)
-	time complexity:  0.000000   0.000000   0.000000 (  0.001026)
-	space complexity:  0.000000   0.000000   0.000000 (  0.001051)
+       user     system      total        real
+poorly written ruby:  0.330000   0.000000   0.330000 (  0.332027)
+code optimization:  0.220000   0.000000   0.220000 (  0.221514)
+time complexity:  0.070000   0.030000   0.100000 (  0.107468)
+space complexity:  1.990000   0.010000   2.000000 (  2.015852)
 
 	10000
-	poorly written ruby:  1.320000   0.010000   1.330000 (  1.324831)
-	code optimization:  0.000000   0.000000   0.000000 (  0.001923)
-	time complexity:  0.000000   0.000000   0.000000 (  0.002019)
-	space complexity:  0.000000   0.000000   0.000000 (  0.002121)
+poorly written ruby:  1.310000   0.000000   1.310000 (  1.323629)
+code optimization:  0.870000   0.000000   0.870000 (  0.869728)
+time complexity:  0.250000   0.150000   0.400000 (  0.403418)
+space complexity:  8.600000   0.020000   8.620000 (  8.658377)
 
 Big-O:
 Poorly Written Ruby:    O(2^n)
-Code Optimization:      O(n)
-Time Complexity:        O(log n)
-Space Complexity:       O(log n)
+Code Optimization:      O(n^2)
+Time Complexity:        O(nlog n)
+Space Complexity:       O(1)

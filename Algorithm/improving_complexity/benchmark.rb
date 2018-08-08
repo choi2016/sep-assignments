@@ -4,7 +4,7 @@ require_relative 'improving_complexity_version_one'
 require_relative 'improving_complexity_version_two'
 require_relative 'improving_complexity_version_three'
 
-array = (1..1000).to_a.shuffle!
+array = (1..10000).to_a.shuffle!
 
 Benchmark.bm do |x|
   x.report('poorly written ruby:') {poorly_written_ruby(array)}
